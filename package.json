@@ -31,6 +31,6 @@
     "typescript": "4.8.2"
   },
   "lint-staged": {
-    "pages/**/*.tsx|ts|js": "prettier --write --ignore-unknown"
+    "pages/**/*.tsx": "prettier --write --ignore-unknown"
   }
 }
