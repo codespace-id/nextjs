@@ -11,4 +11,8 @@ describe('Testing - pages/index', () => {
 
         expect(main.getByText('Hello World!')).toBeInTheDocument()
     })
+
+    afterAll((done) => {
+        done()
+    })
 })

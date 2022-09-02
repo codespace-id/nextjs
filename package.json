@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.2.3",
@@ -43,7 +43,7 @@
   },
   "lint-staged": {
     "**/*.{js,ts,tsx}": [
-      "jest --bail --findRelatedTests",
+      "jest --bail --detectOpenHandles",
       "prettier --write --ignore-unknown"
     ]
   }
