@@ -4,14 +4,14 @@
 ## Spesification
 - NextJS v12.2.5
 - React Query v4.2.3
-- React Query DevTools "^4.2.3
-- axios v0.27.2
-- framer-motion v7.2.1
-- react v18.2.0
-- react-dom v18.2.0
-- react-error-boundary v3.1.4
-- react-hook-form v7.34.
-- jest v29.0.2
+- React Query DevTools v4.2.3
+- Axios v0.27.2
+- Framer-motion v7.2.1
+- React v18.2.0
+- React-dom v18.2.0
+- React-error-boundary v3.1.4
+- React-hook-form v7.34.
+- Jest v29.0.2
 - Typescript v4.8.2
 - Tailwindcss v3.1.8
 
