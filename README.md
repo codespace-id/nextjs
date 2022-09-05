@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# 🔥 Next JS + TailwindCSS Boilerplate 🔥
+## Spesification
+- NextJS v12.2.5
+- React Query v4.2.3
+- React Query DevTools "^4.2.3
+- axios v0.27.2
+- framer-motion v7.2.1
+- react v18.2.0
+- react-dom v18.2.0
+- react-error-boundary v3.1.4
+- react-hook-form v7.34.
+- jest v29.0.2
+- Typescript v4.8.2
+- Tailwindcss v3.1.8
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
+Menggunakan NodeJs versi 16 (LTS)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Jika menggunakan `yarn`
+>yarn install
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Atau menggunakan `npm` 
+>npm install  
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Menjalankan development server
+Sebelum menjalankan development server, copas dahulu file `.env.example` ke file `.env.local` sebagai file enviroment variable di [Next JS](https://nextjs.org). Untuk detail penjelasan enviroment variable di [Next Js](https://nextjs.org), bisa di cek di -> [Enviroment Variable](https://nextjs.org/docs/basic-features/environment-variables). Development server secara default, dijalankan di port `3000`
 
-## Learn More
+- Jika menggunakan `yarn`
+>yarn run dev
 
-To learn more about Next.js, take a look at the following resources:
+- Atau menggunakan `npm` 
+>npm run dev  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Menjalankan Unit Testing dengan Jest
+Di boilerplate sudah terinstall [Jest](https://jestjs.io) & [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) yang digunakan untuk melakukan unit testing. Untuk membuat file test, ditaruh di directory `__test__` dengan format struktur folder mengikuti struktur di root project folder.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Jika menggunakan `yarn`
+>yarn run test
 
-## Deploy on Vercel
+- Atau menggunakan `npm` 
+>npm run test  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Build aplikasi
+- Jika menggunakan `yarn`
+>yarn run build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Atau menggunakan `npm` 
+>npm run build  
+
+
+
+Di boilerplate juga sudah terkonfigurasi `Eslint + Prettier` dan akan dijalankan ketika pre-commit.

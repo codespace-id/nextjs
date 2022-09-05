@@ -1,15 +1,22 @@
 /* eslint-disable no-undef */
-import { render, screen, RenderResult, within } from '@testing-library/react'
-import Home from '../../pages/index'
+import { render, within, RenderResult } from '@testing-library/react'
+import Index from '../../pages/index'
 import '@testing-library/jest-dom'
 
-// let documentBody: RenderResult;
+let documentBody: RenderResult
 describe('Testing - pages/index', () => {
-    it('show hello world!', () => {
-        render(<Home />)
-        const main = within(screen.getByTestId('hello'))
+    beforeEach(() => {
+        documentBody = render(<Index />)
+    })
 
-        expect(main.getByText('Hello World!')).toBeInTheDocument()
+    it('Title', () => {
+        const title = documentBody.getByTestId('title')
+        expect(title).toBeInTheDocument()
+    })
+
+    it('Subtitle', () => {
+        const subTitle = documentBody.getByTestId('subtitle')
+        expect(subTitle).toBeInTheDocument()
     })
 
     afterAll((done) => {
