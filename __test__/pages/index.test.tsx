@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { render, within, RenderResult } from '@testing-library/react'
+import { render, RenderResult } from '@testing-library/react'
 import Index from '../../pages/index'
 import '@testing-library/jest-dom'
 
