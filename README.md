@@ -2,22 +2,16 @@
 
 # 🔥 Next JS + TailwindCSS Boilerplate 🔥
 ## Spesification
-- NextJS v12.2.5
-- React Query v4.2.3
-- React Query DevTools v4.2.3
-- Axios v0.27.2
-- Framer-motion v7.2.1
-- React v18.2.0
-- React-dom v18.2.0
-- React-error-boundary v3.1.4
-- React-hook-form v7.34.
-- Jest v29.0.2
-- Typescript v4.8.2
-- Tailwindcss v3.1.8
+- NextJS v14.0.4
+- React v18
+- React-dom v18
+- Jest v29.7.0
+- Typescript v5
+- Tailwindcss v3.3.0
 
 
 ## Installation
-Menggunakan NodeJs versi 16 (LTS)
+Menggunakan NodeJs versi 20 (LTS)
 
 - Jika menggunakan `yarn`
 >yarn install
